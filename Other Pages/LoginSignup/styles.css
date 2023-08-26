@@ -1,0 +1,79 @@
+body{
+    background-color: #ff8a2a;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    width: 300px;
+    margin: 140px auto;
+    text-align: center;
+}
+
+.header .fa-weibo{
+    font-size: 65px;
+    color: #fff;
+}
+
+.header h1{
+    font-size: 32px;
+    color: #fff;
+    margin-top: 9px;
+}
+
+.form .fields{
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.form .fields input {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    width: 100%;
+    margin: 0;
+    padding: 18px 0;
+    border: none;
+    outline: none;
+    text-indent: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+.form .fields input[type="text"] {
+    border-bottom: 1px solid #ccc;
+}
+
+.form .fields input[type="email"] {
+    border-bottom: 1px solid #ccc;
+}
+
+.form .fields input[type="password"] {
+    border-radius: 0 0 10px 10px;
+}
+
+.form input[type="submit"] {
+    background-color: rgb(43, 43, 43);
+    color: #fff;
+    width: 100%;
+    padding: 14px 0;
+    border-radius: 6px;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 20px 0 5px;
+}
+
+.form input[type="submit"]:hover{
+    background-color: rgb(19, 19, 19);
+    cursor: pointer;
+}
+
+.footer p{
+    color: #fff;
+    font-size: 19px;
+}
+
+.footer p a{
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+}
